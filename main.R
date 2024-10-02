@@ -3,8 +3,8 @@ library(ggplot2)
 
 
 tryCatch({
-    
-    setwd("/home/onyedikachi/Desktop/Nexford/courses/Data Analytics Courses/BAN6420 Python and R Programming/Module Assignment Four")
+
+    #setwd("/home/onyedikachi/Desktop/Nexford/courses/Data Analytics Courses/BAN6420 Python and R Programming/Module Assignment Four")
 
     # Import the clean Data Set into R environment
     df <- read.csv(file = "Clean_Data_Set.csv")

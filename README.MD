@@ -7,15 +7,14 @@ This is a data analysis and visualization using a dataset from Netflix. The prog
 
 - **Data Integration**: The program is able to consolidate data from a zip archive file and extract the dataset to be used for the analysis.
 - **Data Transformation**: The program is able to normalize some data elemnts tht were not on proper fromat like data and columns label.
-- **Data Cleaning**: The program is able to clean the dataset by removing rows with missing values as this will cause data bias to the analysis.
-- **Employee Dictionary**: A python dictionary is created during runtime to be used to structure the employee data.
+- **Data Cleaning**: The program is able to clean the dataset by removing rows with missing values as this will cause data bias to the analysis and save the file.
+- **Data Exploration**: The program is able to explore the dataset in-order to 
+- **Data Visualization**: 
 - **Error Handling**: Added Error Handling to track any exception and print the error as a string or character.
-- **File compression and Extraction**: The python program is able to zip employee record after processing while the R program will unzip and display the data.
-- **Lanuguage Stack**: The salary function processing part was built using python while the unzipping and visualization was built using R.
-
+- **Lanuguage Stack**: The data import, cleaning, and exploration was done using Python. While the data visualization was done using Python and R
 
 ## GitHub Repository
-1. https://github.com/Onyedikachi-E/employee_salary_function
+1. https://github.com/Onyedikachi-E/netflix_data_visualization
 
 
 ## Packages Used in the project
@@ -23,18 +22,20 @@ This is a data analysis and visualization using a dataset from Netflix. The prog
 1. Pandas - This library is used to import data into a dataframe object. This object will now have access to all the attributes of a dataframe for manipulation.
 2. zipfile - This package is used to create .zip file for present employee record tha is being processed.
 3. os - This package was used in-order to access the remove() function which will be used delete the CSV fule of the employee.
+4. Matplotlib - This is an extensive python library that is very rich in data visualization 
+5. Seaborn - This is rich library built on top of matplotlib in-order to simply a lot of process and make data visualization easier.
 
 - **For R**
 1. utils - This is a built-in R package that was loaded in order to access to use it unzip, read_csv and View function  to unzip and read the employee profile. 
+2. ggplot2 - This is very rich library in R which has vast funtionalities for all kind of data visualization .
 
 
 ## How To Use The Program
 - **For Python**
-1. Run the first cell block in order to import all the neccesaary package.
-2. Execute the the second and the third cell block in-order to import the employee data and initialize the salary function.
-3. Execute the 'main' function to execute the program which will request for an employee name during initialization. This will process and zip the record.
+1. Run the cell blocks step by step to perform the different sets of operation
+2. The last part of each section will do data visualization and output the the data as a "png" file
 
 - **For R**
-1. Load the utils package in order to access it access its functions.
+1. Load the ggplot2 package in order to access it access its rich library.
 2. Uncomment the setwd() line of code and map the directory the project is cloned in-order to set the correct working directory.
-3. Execute the 'main.R' file in-order to execute the program. It will unzip the employee zip data, read the CSV file and display the data
+3. Execute the 'main.R' file in-order to execute the program. It will read the Clean CSV file dataset, process the file and output the visualized data
