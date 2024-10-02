@@ -9,7 +9,7 @@ This is a data analysis and visualization using a dataset from Netflix. The prog
 - **Data Transformation**: The program is able to normalize some data elemnts tht were not on proper fromat like data and columns label.
 - **Data Cleaning**: The program is able to clean the dataset by removing rows with missing values as this will cause data bias to the analysis and save the file.
 - **Data Exploration**: The program is able to explore the dataset in-order to 
-- **Data Visualization**: 
+- **Data Visualization**: The program makes use of powerful libraries like matplotlib, seasborn and R ggplot2 to create powerful charts and graphs for users
 - **Error Handling**: Added Error Handling to track any exception and print the error as a string or character.
 - **Lanuguage Stack**: The data import, cleaning, and exploration was done using Python. While the data visualization was done using Python and R
 
