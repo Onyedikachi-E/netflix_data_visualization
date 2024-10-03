@@ -36,7 +36,10 @@ tryCatch({
     # Plot the graph using ggplot and export as Rplots.pdf
     bar_plot <- ggplot(data, aes(x=genere_types, y=count_of_genre, fill = genere_types)) + geom_bar(stat = "identity") + scale_fill_manual(values = c("blue", "green", "red", "purple", "orange", "pink", "cyan", "yellow", "magenta", "brown")) + theme_minimal()
 
-    ggsave("R_most_watched_genres.png", plot = bar_plot, width = 10, height = 6, dpi = 300)
+    # ggsave("R_most_watched_genres.png", plot = bar_plot, width = 10, height = 6, dpi = 300)
+
+    summary(df)
+
 
 # Error Handling for Exception
 }, error = function(e) {
